@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Default Footer
- * Slug: twentytwentythree/footer-default
+ * Slug: twentytwentythreechild/footer-default
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -17,7 +17,7 @@
 		printf(
 			/* Translators: WordPress link. */
 			esc_html__( 'Proudly powered by %s', 'twentytwentythreechild' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'
+			tt3c_get_site_name()
 		)
 		?>
 		</p>
